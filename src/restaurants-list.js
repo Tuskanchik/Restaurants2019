@@ -2,6 +2,7 @@ import React from "react";
 import Restaurant from "./restaurant.js";
 import useAccordion from "./customHooks/useAccordion.js";
 import DecoratedComponent from "./decorators/accordion.js";
+// import Reviews from './reviews.js'
 
 function RestaurantsList({ restaurants, toggleOpenItem, isItemOpen }) {
   // const { isOpenItem, toggleOpenItem } = useAccordion(restaurants[0].id);
