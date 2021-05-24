@@ -16,9 +16,8 @@ export default function Reviews({ reviews }) {
 
   return (
     <div>
-      Отзывы:{" "}
+      Отзывы:
       <Button onClick={toggle}>
-        {" "}
         {isOpen ? "Cкрыть отзывы" : "Показать отзывы"}
       </Button>
       {isOpen && reviewsBody}
